@@ -60,7 +60,8 @@ function greedySolve(tasks, capacity) {
   let totalImpact = 0, rem = capacity;
   for (const t of sorted) {
     if (t.Duration <= rem) {
-      selected.push(t);
+      const { _ratio, ...clean } = t;
+      selected.push(clean);
       totalImpact += t.Impact;
       rem -= t.Duration;
     }
