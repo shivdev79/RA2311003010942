@@ -1,0 +1,12 @@
+{
+  "name": "afford-backend",
+  "version": "1.0.0",
+  "description": "Affordmed backend evaluation — vehicle scheduler + notifications",
+  "scripts": {
+    "register": "node register.js"
+  },
+  "dependencies": {
+    "axios":  "^1.7.2",
+    "dotenv": "^16.4.5"
+  }
+}
