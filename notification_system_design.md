@@ -381,7 +381,7 @@ WHERE next_retry_at <= NOW();
 
 ## Stage 6: Priority Inbox
 
-**See `notifications/handler.go` for working implementation.**
+**See `notification_app_be/src/handler.js` and `notification_app_be/src/priority-inbox.js` for working implementation.**
 
 ### Algorithm — Min-Heap of size N
 
